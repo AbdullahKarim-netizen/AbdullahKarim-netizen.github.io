@@ -1,0 +1,68 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(37, 33, 33);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #121212;
+    z-index: 100;
+    height: 65px;
+}
+.kanan-h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.kiri-h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.kiri-h img{
+    width: 40px;
+    border-radius: 25px;
+    margin: 20px;
+}
+.hamburger-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+.kanan-h div{
+    margin-right: 20px;
+    font-family: Roboto,Arial;
+}
+.kiri-h p,.kanan-h div{
+    color: white;
+    font-family: Roboto,Arial;
+}
+.kiri-h div{
+    margin-right: 10px;
+}
+.kiri-h input{
+    border: none;
+    width: 200px;
+    background-color: #151414;
+    padding: 10px 0 10px 10px;
+    border-radius: 25px;
+    box-shadow: inset 0 0 5px rgba(220, 217, 217, 0.15);
+    margin-right: 10px;
+}
+.navlink{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.navlink p:hover{
+    color: rgb(209, 209, 209);
+    cursor: pointer;
+}

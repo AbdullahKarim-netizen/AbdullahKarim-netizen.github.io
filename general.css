@@ -1,0 +1,8 @@
+.web-container{
+    display: grid;
+    grid-template-areas: "sidebar post saran-teman";
+    grid-template-columns: 0.7fr 0.8fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+}
+

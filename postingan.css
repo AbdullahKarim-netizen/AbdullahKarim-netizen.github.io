@@ -1,0 +1,170 @@
+body{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #151414;
+    padding-left: 0;
+}
+.postingan-container{
+    box-shadow: 0px 0px 5px rgba(142, 141, 141, 0.15);
+    width: 500px;
+    border-radius: 6px;
+}
+.profil-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+}
+.profil-tooltip{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.profil-tooltip .tooltip{
+    position: absolute;
+    bottom: -29px;
+    background-color: gray;
+    padding: 2px 3px 2px 3px;
+    font-size: 13px;
+    color: white;
+    font-family: Arial,Roboto;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0.19s;
+    border-radius: 5px;
+}
+.profil-tooltip:hover .tooltip{
+    opacity: 1;
+}
+.foto-profil{
+    width: 50px;
+    border-radius: 29px;
+    object-fit: cover;
+    margin-right: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.info-pengguna{
+    width: 400px;
+}
+.nama{   
+    font-weight: bold;
+    margin-bottom: 3px;     
+    font-family: Roboto,Arial;
+    color: white;
+}
+.lokasi{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ikuti{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.post-row{
+    width: 500px;
+    height: 500px;
+}
+.postingan{
+    width: 100%;
+    height: 100%;
+}
+.interaksi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.suka{
+    margin: 10px 0 0 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: grey;
+}
+.komentar{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    flex: 1;
+}
+.suka i:hover,.komentar i:hover,.simpan i:hover{
+    cursor: pointer;
+}
+.interaksi span{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.interaksi p{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: Roboto,Arial;
+}
+.simpan{
+    margin: 10px 19px 0 0;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: grey;
+}
+.komentar-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.foto-user{
+    width: 40px;
+    margin: 0 5px 0 15px;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.komentar-kolom{
+    vertical-align: middle;
+    border: none;
+    width: 370px;
+    background-color: #151414;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: inset 0 0 5px rgba(220, 217, 217, 0.15);
+}
+.komentar-kolom::placeholder{
+    color: white;
+    font-weight: bold;
+}
+.kirim{
+    margin-bottom: 20px;
+    margin-left: 8px;
+    padding: 8px 9px 8px 9px;
+    border: solid;
+    border-radius: 25px;
+    background-color: rgb(29, 155, 240);
+    cursor: pointer;
+    transition: 0.19s;
+}
+.kirim:hover{
+    background-color: rgb(13, 85, 133);
+}
+.postingan-kolom{
+    grid-area: post;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-items: center;
+} 
