@@ -11,11 +11,11 @@
         display: none;
     }
     .web-container{
-        margin-left: 0px;
+        margin-left: 0.1px;
         grid-template-areas: "post"
         "saran";
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 0.2fr;
         row-gap: 10px;
     }
     .komentar-section{
