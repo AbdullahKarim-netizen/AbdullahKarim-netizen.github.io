@@ -1,4 +1,4 @@
-if (jQuery(window).width() < 1000) {
+if (jQuery(window).width() < 590) {
     function tampilkansidebar(){
         const sidebar = document.querySelector('.sidebar')
         sidebar.style.display = 'block'
