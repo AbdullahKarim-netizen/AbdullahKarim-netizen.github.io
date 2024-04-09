@@ -20,4 +20,14 @@ if (jQuery(window).width() < 1000) {
         const tomboldua =document.querySelector('.close-menu')
         tomboldua.style.display = 'none'
     }
+    function tutupsidebardua(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+        const tombol = document.querySelector('.hamburger-menu')
+        tombol.style.display = 'inline'
+        const logo = document.querySelector('.logo')
+        logo.style.display = 'inline-block'
+        const tomboldua =document.querySelector('.close-menu')
+        tomboldua.style.display = 'none'
+    }
 }
