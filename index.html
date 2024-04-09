@@ -10,13 +10,18 @@
     <link rel="stylesheet" href="aside-satu.css">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="sidebar.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="kanan-h">
-            <button class="hamburger-menu"><i class="fa-solid fa-bars"></i></button>
-            <div class="navlink">
-                <p style="font-weight: bold;">HumorMedia</p>
+            <div class="tombol-bar">
+            <button onclick="tampilkansidebar()" class="hamburger-menu"><i class="fa-solid fa-bars"></i></button>
+            <button onclick="tutupsidebar()" class="close-menu"><i class="fa-solid fa-xmark"></i></i></button>
+            </div>
+            
+            <div class="logo">
+                <p style="font-weight: bold;" class="logo">HumorMedia</p>
             </div>
             <div class="navlink">
                 <p>🎲Shuffle</p>
@@ -67,7 +72,7 @@
                         </div>
                         <div class="info-pengguna">
                         <p class="nama">Indonesia Gamer</p>
-                        <p class="lokasi">Komunitas</p>
+                        <p class="lokasi">Komunitas anda</p>
                         </div>
                 </div>
         </div>
@@ -175,7 +180,7 @@
                 <div class="kiri">
                     <button onclick="Toggle5()" id="tombol-suka-kedua" class="suka"><i class="fa-solid fa-heart"></i></button>                  
                     <button onclick="Toggle3()" id="tombol-komentar" class="komentar"><i class="fa-regular fa-comment"></i></button>
-                    <p style="color: white;">Disukai 51.987 orang</p>
+                    <p style="color: white;">Disukai 34.987 orang</p>
                     <p style="color: white;"><span>Milyhya </span> Johnny johnny yes kampang stealing money ha ha ha</p>
                     
                 </div>
@@ -194,24 +199,24 @@
         <div class="postingan-container">
             <div class="profil-container">
                     <div class="profil-tooltip">
-                        <img src="images/images.jpg" alt="" class="foto-profil">
+                        <img src="images/dapit ch.jpg" alt="" class="foto-profil">
                         <div class="tooltip">Ini Ino</div>
                     </div>
                     <div class="info-pengguna">
-                    <p class="nama">Wielino Ino</p>
-                    <p class="lokasi">Kudus,Jawa tengah</p>
+                    <p class="nama">Gadgetin</p>
+                    <p class="lokasi">Palembang,Sumatera selatan</p>
             </div>
                     <button class="ikuti">Ikuti</button>
             </div>
             <div class="post-row">
-                <img src="images/434751719_439751778526297_4949270443957342398_n.jpg" alt="" class="postingan">    
+                <img src="images/11-3f6871bbaf84d2d41c630767e9ce030a.jpeg" alt="" class="postingan">    
             </div>
             <div class="interaksi">
                 <div class="kiri">
                     <button onclick="Toggle7()" id="tombol-suka-ketiga" class="suka"><i class="fa-solid fa-heart"></i></button>                  
                     <button onclick="Toggle3()" id="tombol-komentar" class="komentar"><i class="fa-regular fa-comment"></i></button>
-                    <p style="color: white;">Disukai 51.987 orang</p>
-                    <p style="color: white;"><span>Wielino Ino </span> siapa sangka</p>
+                    <p style="color: white;">Disukai 78.987 orang</p>
+                    <p style="color: white;"><span>Gadgetin </span> Hayoo ngaku siapa pernah kayak gini</p>
                     
                 </div>
                 <div class="kanan">
@@ -232,5 +237,7 @@
 
     <script src="https://kit.fontawesome.com/4b5bc3f08b.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="responsive.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </body>
 </html>

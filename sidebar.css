@@ -8,7 +8,6 @@
     z-index: 200;
     width: 290px;
     background-color: #1c1a1a;
-    display: inline-block;
 }
 .profil-kamu{
     display: flex;
@@ -91,3 +90,4 @@
     background-color: rgb(103, 95, 95);
     cursor: pointer;
 }
+

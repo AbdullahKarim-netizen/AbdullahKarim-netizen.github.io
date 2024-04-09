@@ -27,6 +27,9 @@ header{
     border-radius: 25px;
     margin: 20px;
 }
+.tombol-bar{
+    position: relative;
+}
 .hamburger-menu{
     height: 24px;
     margin-left: 24px;
@@ -34,6 +37,20 @@ header{
     border: none;
     background: transparent;
     color: white;
+}
+.close-menu{
+    height: 24px;
+    border: none;
+    background: transparent;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: -5px;
+    display: none;
+    margin: none;
+}
+.logo{
+    margin-left: -10px;
 }
 .kanan-h div{
     margin-right: 20px;

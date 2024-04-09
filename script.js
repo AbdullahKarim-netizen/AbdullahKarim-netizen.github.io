@@ -63,3 +63,4 @@ function Toggle8(){
         tombolvar6.style.color = "black"
     }
 }
+// sidebar
